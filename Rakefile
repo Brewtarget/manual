@@ -1,16 +1,36 @@
+require 'fileutils'
+
 namespace :book do
-  desc 'build basic book formats'
+  desc 'Book publishing toolchain'
+
+  # Entry point of the book.
+  bookEntry = 'brewtarget.asc'
+  # Directory to build the book to
+  buildDirectory = 'build'
+  # Formats and their associated processor.
+  formats = [
+    ['html', 'asciidoctor'],
+    ['epub3', 'asciidoctor-epub3'],
+    ['pdf', 'asciidoctor-pdf']
+  ]
+
   task :build do
-    puts "Converting to HTML..."
-    `bundle exec asciidoctor brewtarget.asc`
-    puts " -- HTML output at brewtarget.html"
+    puts 'Build standard book formats'
 
-    puts "Converting to EPub..."
-    `bundle exec asciidoctor-epub3 brewtarget.asc`
-    puts " -- Epub output at brewtarget.epub"
+    if Dir.exists?(buildDirectory)
+      puts '[warning] Output already present book:clean to regenerate'
+      next
+    end
 
-    puts "Converting to PDF... (this one takes a while)"
-    `bundle exec asciidoctor-pdf brewtarget.asc`
-    puts " -- PDF  output at brewtarget.pdf"
+    puts '  Creating output directory'
+    Dir.mkdir buildDirectory
+    formats.each do |format|
+      puts '  Building format : ' + format[0]
+      `bundle exec #{format[1]} -D #{buildDirectory} #{bookEntry}`
+    end
+  end
+
+  task :clean do
+    FileUtils.rm_rf(buildDirectory)
   end
 end
