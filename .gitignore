@@ -2,6 +2,7 @@ output
 .DS_Store
 
 # build artifacts
+build/
 progit.html
 progit.pdf
 progit.pdfmarks
