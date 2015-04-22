@@ -26,7 +26,7 @@ namespace :book do
     Dir.mkdir buildDirectory
     formats.each do |format|
       puts '  Building format : ' + format[0]
-      `bundle exec #{format[1]} -D #{buildDirectory} #{bookEntry}`
+      puts `bundle exec #{format[1]} -D #{buildDirectory} #{bookEntry}`
     end
   end
 

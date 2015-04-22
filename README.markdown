@@ -13,9 +13,12 @@ For more information http://powerman.name/doc/asciidoc.
 
 ## Prerequisites
 * Ruby >= 2.2
+* ruby-dev (for building native gem extensions)
 
 ## Initialization
     gem update
+    gem install bundler
+    bundle install
 
 ## Building standard formats
     rake book:build
