@@ -28,6 +28,8 @@ namespace :book do
       puts '  Building format : ' + format[0]
       puts `bundle exec #{format[1]} -D #{buildDirectory} #{bookEntry}`
     end
+    FileUtils::mkdir_p buildDirectory + '/assets/images'
+    FileUtils.copy_entry('assets/images', buildDirectory + '/assets/images')
   end
 
   task :clean do
