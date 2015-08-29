@@ -10,3 +10,7 @@ progit.epub
 progit-kf8.epub
 progit.mobi
 /images/
+
+# Kate artifacts
+.kateproject.d
+
