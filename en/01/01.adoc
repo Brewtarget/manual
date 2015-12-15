@@ -6,16 +6,12 @@ American Amber Ale, touching on as many features as possible.
 
 === Setting Options
 
-First, let's set a few options. Brewtarget's options are in Tools-{gt}Options.
+First, let's set a few options. Brewtarget's options are in ``Tools -> Options``.
 
 .Select Options
 image::toolsToOptions.png[Click Tools and select Options]
 
-Here you should set your preferences for the unit system you wish to use, and
-which formulae you want to use in creating your recipes. For the purposes of
-this walkthrough, go to the units tab and set weight and volume 
-to US traditional, temperature to Fahrenheit, gravity to specific gravity,
-and color to SRM.
+Here you should set your preferences for the unit system you wish to use, and which formulae you want to use in creating your recipes. For the purposes of this walkthrough, go to the units tab and set weight and volume to US traditional, temperature to Fahrenheit, gravity to specific gravity, and color to SRM. 
 
 .Units
 image::optionsUnits.jpg[Units tab]
