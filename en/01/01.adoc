@@ -70,15 +70,18 @@ Fill out as many of these fields as you can.
 |Name
 |Any name you choose to title your equipment setup
 
+|Batch size
+|How much wort you want in the primary fermenter
+
 |Pre-boil volume
-|Amount of wort in the kettle immediately prior to boil
+|Amount of wort in the kettle immediately prior to boil. Alternatively select
+"Calculate pre-boil volume" below to automatically compute this value.
 
 |Calculate pre-boil volume
 |Automatically calculate the pre-boil volume based on boil
 time, losses, and water additions, instead of entering it by hand
 
-|Batch size
-|How much wort you want in the primary fermenter
+
 
 2+^h|Boiling & Water
 
