@@ -7,7 +7,10 @@ Many souls have contributes to providing you with this manual, here we make an e
 
 | Locale translation  | Base manual |
 | :----------------:  | :---------- |
-| Same as base manual | Maxime Lavigne (malavv) <duguigne@gmail.com><br/> Philip G. Lee <rocketman768@gmail.com> |
+| Same as base manual | Maxime Lavigne (malavv) <duguigne@gmail.com> |
+| | Mike Evans <mikee@saxicola.co.uk> |
+| | Philip G. Lee <rocketman768@gmail.com> |
+
 
 ## Foreword
 *By Philip G. Lee*
