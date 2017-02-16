@@ -1,24 +1,27 @@
-# User Manuals
+# User Manual
+This repository is home to the user manual of [Brewtarget](http://www.brewtarget.org/). It is managed on [GitHub](https://github.com/Brewtarget/brewtarget) and published on [GitBook](https://www.gitbook.com/book/brewtarget/user-manual) giving anyone the ability to easily suggest modifications, correct typos, or write a translation.
 
-This repository is home to Brewtarget's user manuals. In here, you will find the source for them and the necessary instruction to build them and modify them.
+## Contributions
+It is important when thinking about making a contribution to have a clear intent. Identify the areas and sections you wish to modify, and keep your changes limited and focused.
+
+Before changing anything, you will need to have a GitHub account and fork the `Brewtarget/user-manual` repository. It is on this fork that you will apply your modifications, and make the pull request.
+
+Once you are satified with your changes, check for spelling/grammar mistake. Verify the scope of your modification, and create a pull request on the main `Brewtarget/user-manual` repository.
 
 ## Gold Standard
-Brewtarget's manual are meant to be available in multiple locales to suit the needs of our users. In order to do so, we need explicit instructions on the process to create and update them. In this project, we make use of the English locale as the "Gold Standard" and other locale as derivate works. Any non-trivial contributions to either the structure or format need to be applied to the gold standard first.
+This manual is meant to be translated in multiple locales. In order for the different versions not to look dissimilar, the `en` locale was chosen as the _Gold Standard_ of all the user manuals. This implies that other locales should aim to follow both the structure and format of the _Gold Standard_. Any major contributions, additions, and rewrites need to first be proposed on the `en` locale, and then translated.
 
-## AsciiDoc
-"AsciiDoc is a human-readable document format, semantically equivalent to DocBook XML, but using plain-text mark-up conventions. AsciiDoc documents can be created using any text editor and read “as-is”, or rendered to HTML or any other format supported by a DocBook tool-chain, i.e. PDF, TeX, Unix manpages, e-books, slide presentations, etc" (Wikipedia)
-For more information http://asciidoctor.org/docs/user-manual/.
+# About This Book
 
-# Building manuals
+## Written in Markdown
+**Markdown** is a simple way to format text that looks great on any device. It doesn’t do anything fancy like change the font size, color, or type — just the essentials, using keyboard symbols you already know. 
+[Common Mark CheatSheet and Tutorial](http://commonmark.org/help/)
 
-## Prerequisites
-* Ruby >= 2.2
-* ruby-dev (for building native gem extensions)
+## Edited and Published on GitBook
+This book is designed to be built using the Gitbook web infrastructure. From their website, you may read :
 
-## Initialization
-    gem update
-    gem install bundler
-    bundle install
+> GitBook was created mid 2014 with the vision of creating a modern and simple solution to documentation, digital writing and publishing. We've started by building an open source format. The philosophy is to be simple to the point of elegance, removing distractions and concerns from content creators, so that they can write freely.
 
-## Building standard formats
-    rake book:build
+One of the advantages of the GitBook Integrated Development Environment is that it offers horizontal integration of the whole process from editing to publishing. It also makes use of a simple syntax which easily be understood by newcomers.
+
+[Come and join us writing this book](https://www.gitbook.com)

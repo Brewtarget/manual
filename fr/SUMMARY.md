@@ -9,5 +9,5 @@
    * [Prêt-à-Brasser](01/brewday.adoc)
 * [Chapitre 2](02/02.adoc)
 * [Chapitre 3](03/03.adoc)
-* [Appendices](license.asc)
+* [License](license.adoc)
 

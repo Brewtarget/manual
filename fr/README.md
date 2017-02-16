@@ -6,8 +6,13 @@ Version 2.3
 Ce manuel est le fruit du travail bénévole de plusieurs passionnés. À l'image de Brewtarget, il est à source libre et est distribué gratuitement à la communauté. Vous aussi pouvez contribuer à Brewtarget en: rapportant des bogues, participant à la programmation de l'application, améliorant ce manuel, ou en contribuant à une traduction. Ici sont listé les auteurs de ce manuel :
 
 | Traduction (fr)  | Version Originale |
-| :----------------  | :---------- |
-|  Maxime Lavigne (malavv) <duguigne@gmail.com> | Maxime Lavigne (malavv) <duguigne@gmail.com><br/> Philip G. Lee <rocketman768@gmail.com> |
+|:-----------------|:------------------|
+| geekspourjesus <geekspourjesus@gmail.com> | Maxime Lavigne (malavv) <duguigne@gmail.com> |
+| Maxime Lavigne (malavv) <duguigne@gmail.com> | Mike Evans <mikee@saxicola.co.uk> |
+| | Philip G. Lee <rocketman768@gmail.com> |
+
+
+
 
 ## Avant-Propos
 *Par Philip G. Lee*
