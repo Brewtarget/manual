@@ -104,8 +104,12 @@ There are four main sections on the brewnote tab.
 |Volume
 |The volume of wort that made it into your boil kettle
 
-|Final temp
+
+|Strike temp
 |The temperature of your mash after dough in
+
+|Final temp
+|The temperature of your mash just before mash out
 
 2+^h|Postboil
 
