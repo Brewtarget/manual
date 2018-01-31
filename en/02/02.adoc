@@ -141,6 +141,23 @@ There are four main sections on the brewnote tab.
 |Notes
 |Any notes specific to the brew day
 
+2+^h|Calculated parameters
+
+|Eff into BK
+|?
+
+|Projected OG
+|Estimated OG based on pre-boil wort volume and boil-off parameters of brewing equipment
+
+|Brewhouse eff
+|Brewhouse efficiency based on pre-boil SG and sugar content in fermentables
+
+|Projected ABV
+|Estimated ABV based on OG, FG and yeast attenuation
+
+|ABV
+|ABV based on OG and FG, not considering yeast attenuation
+
 |==============================================================================
 
 === Adding Ingredients to a Recipe
