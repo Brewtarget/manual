@@ -48,3 +48,15 @@ refractometer readings. You must always enter the current Plato and either the
 original Plato or the OG. If you just want to find out what specific gravity
 11.2 Plato corresponds to, enter 11.2 in both the original Plato and current
 Plato fields.
+
+=== Hydrometer Temp Adjustmen
+
+This tool adjust the gravity reading of your hydrometer based on temperature.
+
+Tools-{gt}"Hydrometer Adjustment Tool".  Input the gravity reading (SG Reading) from your hydrometer and the temperature and click "convert".  The "Adjust SG" will be populated with the calculation.  If needed, change the value of the "Hydrometer Calibration" to match your hydrometer.
+
+=== Alcohol Percentage Tool
+
+This tool calculates the percent alcohol by volume using the original gravity and final gravity as inputs.
+
+Tools-{gt}"Alcohol Percentage Tool".  Put in the OG (Original Gravity) and FG (Final Gravity).  Click "calculate" and the ABV (Alcohol By Volume) will be populated with the caculated ABV.
