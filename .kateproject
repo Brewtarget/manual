@@ -1,9 +1,0 @@
-{
-   "name": "Brewtarget Manual",
-   "files": [ { "git": 1 } ],
-   "build": {
-      "clean": "rake book:clean",
-      "build": "rake book:build"
-   }
-}
-
