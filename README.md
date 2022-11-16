@@ -24,7 +24,7 @@ In the meantime, one of the easiest solution to generate the manual is through D
 
 ```{bash}
 # Example for the english manual.
-docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf en/book.adoc -o build/pdf/en/brewtarget-2.3.pdf
+docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf en/book.adoc -o build/pdf/en/brewtarget-3.0.3.pdf
 # Example for the english webpage
-docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor en/book.adoc -o build/html/en/brewtarget-2.3.html && cp -r en/assets build/html/en
+docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor en/book.adoc -o build/html/en/brewtarget-3.0.3.html && cp -r en/assets build/html/en
 ```
